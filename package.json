@@ -1,0 +1,28 @@
+{
+  "name": "@verndale/object-fit",
+  "version": "1.0.1",
+  "description": "Object fit contain and cover",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verndale/object-fit"
+  },
+  "scripts": {
+    "build": "babel src/index.js -o lib/index.js"
+  },
+  "keywords": [
+    "object-fit",
+    "cover",
+    "contain",
+    "object-position",
+    "pollyfill"
+  ],
+  "author": "Carlos Viteri",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-preset-minify": "^0.5.1"
+  }
+}
